@@ -1,4 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background: #6cdaee;
+}
+
 .list {
+  padding: 0;
   display: flex;
   list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  margin-right: 16px;
+  font-size: 18px;
+}
+
+.locale {
+  margin-left: 16px;
+  font-size: 18px;
+  cursor: pointer;
 }

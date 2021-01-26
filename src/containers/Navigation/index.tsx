@@ -13,22 +13,22 @@ export default function Navigation() {
   }
 
   return (
-    <nav>
+    <nav className={styles.container}>
       <ul className={styles.list}>
         <li>
-          <Link to="/">Home</Link>
+          <Link className={styles.link} to="/">Home</Link>
         </li>
-        <li>
-          <Link to="/about">About</Link>
+        <li test-id="about-navigation">
+          <Link className={styles.link} to="/about">About</Link>
         </li>
       </ul>
 
       <ul className={styles.list}>
         <li>
-          <span onClick={changeLocale(Locale.ENGLISH)}>en</span>
+          <span className={styles.locale} onClick={changeLocale(Locale.ENGLISH)}>en</span>
         </li>
         <li>
-          <span onClick={changeLocale(Locale.FRENCH)}>fr</span>
+          <span className={styles.locale} onClick={changeLocale(Locale.FRENCH)}>fr</span>
         </li>
       </ul>
     </nav>
