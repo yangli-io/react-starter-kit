@@ -11,6 +11,7 @@
 - [ ] Readme Instructions
 - [ ] Responsive
 - [ ] Dark Mode
+- [ ] Typescript Lint
 
 ## Getting Started
 
@@ -44,4 +45,7 @@ Use this to manage state, it's basically a state management library built on top
 Cypress is used for end to end testing. Cypress is extremely enjoyable to write and works well as a regression test against future changes.
 
 I suggest you use "test-id" to query items rather than class (because classNames are randomized up by CSS Modules) or id (because id's are unique).
+
+### Jest Unit Tests
+
 
