@@ -6,12 +6,13 @@
 - [x] React Intl
 - [x] CSS Modules
 - [x] Redux Toolkit
-- [ ] Add Unit Tests
+- [ ] Add Unit Tests with Enzyme
 - [x] Cypress
 - [ ] Readme Instructions
 - [ ] Responsive
 - [ ] Dark Mode
 - [ ] Typescript Lint
+- [ ] Pre-commit
 
 ## Getting Started
 
