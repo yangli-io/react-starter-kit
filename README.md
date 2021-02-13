@@ -11,7 +11,7 @@
 - [ ] Readme Instructions
 - [ ] Responsive
 - [ ] Dark Mode
-- [ ] Typescript Lint
+- [x] Typescript Lint
 - [ ] Pre-commit
 
 ## Getting Started
