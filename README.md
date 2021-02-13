@@ -12,7 +12,8 @@
 - [ ] Responsive
 - [ ] Dark Mode
 - [x] Typescript Lint
-- [ ] Pre-commit
+- [x] Pre-commit
+- [ ] Make Create React App Template
 
 ## Getting Started
 
