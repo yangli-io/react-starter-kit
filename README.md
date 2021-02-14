@@ -6,13 +6,14 @@
 - [x] React Intl
 - [x] CSS Modules
 - [x] Redux Toolkit
-- [ ] Add Unit Tests with Enzyme
+- [x] Add Unit Tests with Enzyme
 - [x] Cypress
 - [ ] Readme Instructions
 - [ ] Responsive
 - [ ] Dark Mode
 - [x] Typescript Lint
 - [x] Pre-commit
+- [x] Github Workflows
 - [ ] Make Create React App Template
 
 ## Getting Started
@@ -48,6 +49,11 @@ Cypress is used for end to end testing. Cypress is extremely enjoyable to write 
 
 I suggest you use "test-id" to query items rather than class (because classNames are randomized up by CSS Modules) or id (because id's are unique).
 
-### Jest Unit Tests
+### Github Workflows
+A .github/workflows/CI.yml file has been provided which will run the build, lint, test and e2e-test on your github actions page upon push into master. You can also add your own deploy script to deploy into your server of choice.
 
+### Pre-commit
+Precommit is setup and will run lint and test when trying to commit. This is to prevent bad commits.
+
+### Jest Unit Tests
 
