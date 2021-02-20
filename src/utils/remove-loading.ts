@@ -1,7 +1,7 @@
-export default function removeLoading() {
-    const loader = document.getElementById('Loading');
+export default function removeLoading(): void {
+  const loader = document.getElementById('Loading');
 
-    if (loader) {
-        loader.remove();
-    }
+  if (loader) {
+    loader.remove();
+  }
 }
