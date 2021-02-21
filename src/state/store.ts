@@ -1,9 +1,11 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import localeSlice from './locale/localeSlice';
+import profileSlice from './profile/profileSlice';
 
 export const store = configureStore({
   reducer: {
     locale: localeSlice.reducer,
+    profile: profileSlice.reducer,
   },
 });
 

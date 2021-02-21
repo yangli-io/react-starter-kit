@@ -1,4 +1,7 @@
 {
   "home.title": "Page D'acceuil",
-  "about.title": "A propos"
+  "about.title": "A propos",
+  "login.title": "connexion",
+  "login.username": "Nom d'utilisateur",
+  "login.password": "Mot de passe"
 }

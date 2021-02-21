@@ -1,4 +1,7 @@
 {
   "home.title": "Home Page",
-  "about.title": "About"
+  "about.title": "About",
+  "login.title": "Login",
+  "login.username": "Username",
+  "login.password": "Password"
 }
